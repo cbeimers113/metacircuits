@@ -9,8 +9,7 @@ electronics can be created with execution speeds and compact designs similar to 
 simulation features that make subframe possible. The mod introduces components that can have inputs and/or outputs which can be "wired" together 
 to send data between components. The DIGI (digitizer) element can take an electrical signal (SPRK) and convert it to a circuit signal of "1", 
 which can be accessed by other components via DIGI's output. The DIOD (diode) element does the opposite, converting any non-zero circuit signal 
-to an electrical signal. Other components include logic gates and LEDs. Metacircuits will always try to remain compatible and up to date with the 
-official Powder Toy.
+to an electrical signal. Other components include logic gates and LEDs.
 
 
 Instructions
@@ -67,5 +66,3 @@ Components
 - XOR gate. Outputs a signal only if one of the inputs carries a signal.
 - XNOR gate. Outputs a signal only if both inputs are the same.
 
-Note: TRNS does not work quite like a real transistor where a sustained electrical signal is required to allow conduction.
-It has an ON input and an OFF input that are used to enable and disable this property.
